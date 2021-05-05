@@ -2,11 +2,11 @@
 <html>
 
 <head>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script> -->
   
-  <script src="https://unpkg.com/ml5@0.5.0/dist/ml5.min.js"></script>
+  <!-- <script src="https://unpkg.com/ml5@0.5.0/dist/ml5.min.js"></script> -->
   
   <link rel="stylesheet" type="text/css" href="style.css">
   <meta charset="utf-8" />
@@ -76,21 +76,33 @@
     .whiteBox {
       background-color: white;
       width: windowWidth;
-      height: 140px;
+      height: 90px;
   
       z-index: -8;
     }
+
+    video {
+    position: absolute;
+    left: 50%;
+    transform:translateX(-50%);
+}
 
   </style>
 </head>
 
 <div class="whiteBox">
   <img src="Path 9@2x.png" alt=" " id="titleImage">
-  <img src="cluster view.png" alt=" " id="cluster">
+  <a href="python.html"><img src="cluster view.png" alt=" " id="cluster"></a>
   <a href="gallery.html"><img src="list view.png" alt=" " id="list"></a>
-  <img src="about.png" alt=" " id="about">
-  <a href="index.html"><img src="calculator.png" alt=" " id="calculator"></a>
+  <a href="about.html"><img src="about.png" alt=" " id="about"></a>
+  <a href="index.html"><img src="Home.png" alt=" " id="calculator"></a>
 </div>
+
+<video width="960" height="680" controls autoplay>
+  <source src="ts2 final.mp4" type="video/mp4">
+  <!-- <source src="movie.ogg" type="video/ogg"> -->
+Your browser does not support the video tag.
+</video>
 
 <body>
 
