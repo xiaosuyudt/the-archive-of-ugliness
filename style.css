@@ -1,0 +1,37 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  canvas {
+    display: block;
+  }
+  
+h1{
+    display: block;
+    font-size: 4em;
+    font-weight: bold;
+    color: black;
+    font-family: helvetica;
+    /* margin-left: 1em; */
+ }
+
+ h2{
+     display: block;
+     font-size: 1.3em;
+     /* margin-left: 1em; */
+     font-weight: normal;
+     font-family: helvetica;
+     color: grey;
+ }
+
+ input{
+    
+     font-size: 1em;
+     color: clear;
+     background-color: clear;
+
+     font-family: helvetica;
+ }
+
